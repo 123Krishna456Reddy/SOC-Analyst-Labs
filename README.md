@@ -4,9 +4,9 @@ This lab demonstrates Windows Event Auditing and its integration with Wazuh SIEM
 This lab simulates real-world Windows security events to demonstrate the visibility SOC analysts gain by combining native Windows telemetry with Wazuh SIEM for centralized monitoring and incident response.
 Events Covered:
 
-1.Event ID 4624 – Successful Logon,
-2.Event ID 4625 – Failed Logon,
-3.Event ID 4688 – Process Creation,
+-1.Event ID 4624 – Successful Logon
+-2.Event ID 4625 – Failed Logon
+-3.Event ID 4688 – Process Creation
 The connection works Here’s how the same log looks in Event Viewer and then inside the Wazuh Dashboard
 
 # Event ID 4624 – Successful Logon
