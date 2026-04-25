@@ -16,7 +16,8 @@ Key Fields Reviewed:
 - TimeCreated – Timestamp of logon
 - User – User account that logged in
 - Source – Machine or service generating the event
-- Logon Type – Interactive, Remote, etc.
+- Logon Type – Interactive, Remote
+
 Screenshots:
 ![EV_4624_Success](EV_4624_Success.png)
 ![Wazuh_4624_Success](Wazuh_4624_Success.png)
@@ -33,6 +34,7 @@ Key Fields Reviewed:
 - User – Account that failed to log in
 - Failure Reason – Why the logon failed
 - Source – Machine or service generating the event
+  
 Screenshots:
 ![EV_4625_Failure](EV_4625_Failure.png)
 ![Wazuh_4625_Failure](Wazuh_4625_Failure.png)
@@ -50,6 +52,7 @@ Key Fields Reviewed:
 - Parent Process – Process that spawned this process
 - Command Line – Full command used (if enabled)
 - User Context – User that executed the process
+  
 Screenshots:
 ![Wazuh_4688_Process](Wazuh_4688_Process.png)
 ![Wazuh_4688_Process](Wazuh_4688_Process.png)
